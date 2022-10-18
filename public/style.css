@@ -1,0 +1,39 @@
+img{
+    width: 500px;
+}
+
+/* .logoImg {
+    width: 100px;
+} */
+
+h1 {
+    color: white;
+}
+
+input , .submitBtn{
+    padding: 10px;
+
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    color: white;
+}
+
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #4F69E9;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
