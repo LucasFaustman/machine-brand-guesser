@@ -11,7 +11,7 @@
 
     <img src="<%= img%>" alt="Hot dog" />
 
-    <ul>
+    <ul> 
       <% for (let i = 0; i<brands.length; i++) { %>
         <li><%=brands[i].name%> <%=brands[i].confidence.toFixed(2)%> confidence</li>
       <% } %>
